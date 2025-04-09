@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -15,9 +17,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Ravenous
         </a>
       </header>
+      <main>
+        <h1>Ravenous</h1>
+        <SearchBar />
+      </main>
     </div>
   );
 }
